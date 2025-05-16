@@ -9,3 +9,4 @@ class HomeLocators:
     # Home
     profile_ul_classname = "oxd-userdropdown"
     logout_li_xpath = "//ul[@class='oxd-dropdown-menu']/li[4]"
+    homepage_url_path = "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
