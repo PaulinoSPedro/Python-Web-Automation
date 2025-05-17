@@ -23,3 +23,9 @@ class LoginPage:
 
     def click_login(self):
         self.driver.find_element(By.XPATH, self.login_button_xpath).click()
+
+    def login(self, url="https://opensource-demo.orangehrmlive.com/web/index.php", username="Admin", password="admin123"):
+        self.driver.get(url)
+        self.enter_username(username)
+        self.enter_password(password)
+        self.click_login()

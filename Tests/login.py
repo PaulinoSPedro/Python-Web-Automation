@@ -4,7 +4,6 @@ from selenium import webdriver
 from automations_and_tests.pom_test_orange_crm.Pages.HomePage import HomePage
 from automations_and_tests.pom_test_orange_crm.Pages.LoginPage import LoginPage
 
-
 class LoginTest(unittest.TestCase):
 
     def setUp(self):
@@ -17,7 +16,7 @@ class LoginTest(unittest.TestCase):
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php")
         login = LoginPage(driver)
         home = HomePage(driver)
-        driver.current_url()
+
         login.enter_username("Admin")
         login.enter_password("admin123")
         login.click_login()
@@ -37,8 +36,6 @@ class LoginTest(unittest.TestCase):
         login.click_login()
 
         self.assertFalse(home.wait_home_page(), "Invalid login should return FALSE but returned TRUE")
-
-
 
     def tearDown(self):
         self.driver.close()
