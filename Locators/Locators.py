@@ -15,4 +15,11 @@ class HomeLocators:
     pim_li_xpath = '//li[@class="oxd-main-menu-item-wrapper"][2]'
     leave_li_xpath = '//li[@class="oxd-main-menu-item-wrapper"][3]'
     time_li_xpath = '//li[@class="oxd-main-menu-item-wrapper"][4]'
-    #TODO - Implement all li xpath
+    recruitment_li_xpath = '//li[@class="oxd-main-menu-item-wrapper"][5]'
+    info_li_xpath = '//li[@class="oxd-main-menu-item-wrapper"][6]'
+    performance_li_xpath = '//li[@class="oxd-main-menu-item-wrapper"][7]'
+    dashboard_li_xpath = '//li[@class="oxd-main-menu-item-wrapper"][8]'
+    directory_li_xpath = '//li[@class="oxd-main-menu-item-wrapper"][9]'
+    maintenance_li_xpath = '//li[@class="oxd-main-menu-item-wrapper"][10]'
+    claim_li_xpath = '//li[@class="oxd-main-menu-item-wrapper"][11]'
+    buzz_li_xpath = '//li[@class="oxd-main-menu-item-wrapper"][12]'
